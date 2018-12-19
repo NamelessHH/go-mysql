@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/juju/errors"
 	. "github.com/pingcap/check"
-	"github.com/siddontang/go-mysql/mysql"
+	"github.com/NamelessHH/go-mysql/mysql"
 	"os"
 	"sync"
 	"time"

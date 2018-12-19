@@ -10,8 +10,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/shopspring/decimal"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/schema"
+	"github.com/NamelessHH/go-mysql/mysql"
+	"github.com/NamelessHH/go-mysql/schema"
 )
 
 type dumpParseHandler struct {

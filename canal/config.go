@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
+	"github.com/NamelessHH/go-mysql/mysql"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/mysql"
 )
 
 type DumpConfig struct {
@@ -67,6 +67,8 @@ type Config struct {
 
 	// SemiSyncEnabled enables semi-sync or not.
 	SemiSyncEnabled bool `toml:"semi_sync_enabled"`
+
+	MaxReconnectAttempts int `toml:"max_reconnect_attempts"`
 }
 
 func NewConfigWithFile(name string) (*Config, error) {

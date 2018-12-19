@@ -14,8 +14,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/satori/go.uuid"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/client"
-	. "github.com/siddontang/go-mysql/mysql"
+	"github.com/NamelessHH/go-mysql/client"
+	. "github.com/NamelessHH/go-mysql/mysql"
 )
 
 var (
