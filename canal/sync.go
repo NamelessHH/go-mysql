@@ -8,9 +8,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/satori/go.uuid"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/replication"
-	"github.com/siddontang/go-mysql/schema"
+	"github.com/NamelessHH/go-mysql/mysql"
+	"github.com/NamelessHH/go-mysql/replication"
+	"github.com/NamelessHH/go-mysql/schema"
 )
 
 var (
